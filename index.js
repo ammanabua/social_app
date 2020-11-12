@@ -8,8 +8,6 @@ const User = require("./models/User");
 const { MONGODB } = require("./config.js");
 
 
-
-
 const server = new ApolloServer({
     typeDefs,
     resolvers
