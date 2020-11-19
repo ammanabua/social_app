@@ -1,0 +1,23 @@
+[33mcommit 295c38ed4e0859cb999ec3190924dc8a187fc552[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Amman Abua <ammanabua@gmail.com>
+Date:   Thu Nov 12 13:08:23 2020 +0100
+
+    implement user login and validation
+
+[33mcommit 61510bdcbcaac031054c5797510d744cb5f66913[m
+Author: Amman Abua <ammanabua@gmail.com>
+Date:   Thu Nov 12 12:41:39 2020 +0100
+
+    implement user registration and validations
+
+[33mcommit c9c7e2a6a658183539763bbcc75291286d2d230c[m
+Author: Amman Abua <ammanabua@gmail.com>
+Date:   Wed Nov 11 10:03:07 2020 +0100
+
+    break app into modules and require them
+
+[33mcommit 4271d3f243a7b65e15799bba6e4cc21142b80333[m
+Author: Amman Abua <ammanabua@gmail.com>
+Date:   Mon Nov 9 13:12:46 2020 +0100
+
+    add dependencies and connect database
