@@ -4,6 +4,7 @@
   "description": "social media app using merng stack",
   "main": "index.js",
   "scripts": {
+    "serve": "node index",
     "start": "nodemon index"
   },
   "author": "Amman Abua",
