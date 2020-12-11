@@ -17,7 +17,7 @@ function PostCard({ post: { body, createdAt, id, username, likeCount, commentCou
         <Card fluid>
             <Card.Content>
                 <Image
-                floated='right'
+                floated='left'
                 size='mini'
                 src='https://react.semantic-ui.com/images/avatar/large/molly.png'
                 />
