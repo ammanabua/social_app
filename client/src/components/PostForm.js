@@ -17,13 +17,15 @@ function PostForm(){
         variables: values,
         update(proxy, result) {
             const data = proxy.readQuery({
-                query: FETCH_POSTS_QUERY
+                 query: FETCH_POSTS_QUERY
             });
             data.getPosts = [result.data.createPost, ...data.getPosts];
             console.log(result.data.createPost);
             proxy.writeQuery({
                 query: FETCH_POSTS_QUERY,
-                data
+                data: {
+                    getPosts: [result.data.createPost, ...data.getPosts]
+                }
             });
             values.body = "";
         }
